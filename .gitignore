@@ -1,0 +1,10 @@
+*.crt
+*.key
+*.srl
+*.csr
+*.json
+*.pem
+# Any sealed secrets that are safe to commit end with -sealedsecrets.json. Those can be and should be committed
+!*-sealedsecrets.json
+!.github/renovate.json
+**/charts/*.tgz
