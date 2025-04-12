@@ -22,5 +22,5 @@ spec:
   databases:
     keycloak: postgres  # dbname: owner
   postgresql:
-    version: "15"
+    version: "17"
 {{- end }}
