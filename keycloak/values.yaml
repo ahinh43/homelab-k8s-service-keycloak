@@ -35,6 +35,8 @@ keycloak:
     # Allows use of a LoadBalancer
     - name: PROXY_ADDRESS_FORWARDING
       value: "true"
+    - name: KC_PROXY_HEADERS
+      value: "xforwarded"
   extraVolumes:
     - name: startup
       configMap:
